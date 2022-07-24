@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="startController">
+   <children>
+      <ImageView fx:id="back" fitHeight="600.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@res/wp7487214-genshin-impact-wallpapers2.jpg" />
+         </image>
+      </ImageView>
+      <VBox prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <GridPane VBox.vgrow="ALWAYS">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <BorderPane GridPane.rowIndex="1">
+                     <center>
+                        <Label alignment="CENTER" contentDisplay="CENTER" text="F̶̨͕̻̺̜̤̮̳̏i̵̡͙͔̱̭̥̬͕͇͚̔̌̃̓g̸̢̛̈́̾͋͋̂h̴͚͙͋̓͝t̴̺͔͈̥̖̝͐͜i̷̢͕̗̦̲̱̥̳̍͘n̶̡͔̹͕͕̣͎̦̄͘͜g̷̥̮̝̬̦̤̤̼͋̎̆̓͊̂ ̶̛̞̤̱̅͒ͅĮ̴͓̪̤̣̪̞͚̉̚͝m̸̹̼̈́̎̌̿̏̕͝p̶͇̘̱̻͔̝̥̣̱̦͊͌͒̇̋̃͆a̷͖̜̍̓͊̒́̃̈̾̕c̵̜̜̝̩͚̽̾́̾̈́̇̃̈́̚ţ̷͖͖̌͒͝ͅ" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="49.0" />
+                           </font>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Label>
+                     </center>
+                  </BorderPane>
+                  <AnchorPane GridPane.rowIndex="2">
+                     <children>
+                        <Button fx:id="easterEgg" layoutX="558.0" layoutY="55.0" mnemonicParsing="false" onAction="#easterEgg" opacity="0.0" prefHeight="31.0" prefWidth="54.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </GridPane>
+            <GridPane VBox.vgrow="ALWAYS">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <BorderPane>
+                     <center>
+                        <Button fx:id="startButton" mnemonicParsing="false" onAction="#pilihKarakter" text="START">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                     </center>
+                  </BorderPane>
+                  <BorderPane GridPane.rowIndex="1">
+                     <center>
+                        <Button fx:id="closeButton" mnemonicParsing="false" onAction="#exitWindow" prefHeight="51.0" prefWidth="157.0" text="CLOSE">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                     </center>
+                  </BorderPane>
+               </children>
+            </GridPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

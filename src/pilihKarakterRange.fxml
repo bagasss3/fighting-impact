@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pilihKarakterRangeController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="812.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/wp7487214-genshin-impact-wallpapers2.jpg" />
+         </image>
+         <effect>
+            <MotionBlur radius="29.2" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="460.0" fitWidth="773.0" layoutX="14.0" layoutY="89.0" opacity="0.33" pickOnBounds="true">
+         <image>
+            <Image url="@res/download.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="345.0" fitWidth="199.0" layoutX="301.0" layoutY="89.0" opacity="0.33" pickOnBounds="true">
+         <image>
+            <Image url="@res/download.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="344.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ATK :" textAlignment="CENTER" wrappingWidth="112.5367431640625">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Text>
+      <Text layoutX="358.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10" textAlignment="CENTER" wrappingWidth="84.99999999999994">
+         <font>
+            <Font size="65.0" />
+         </font>
+      </Text>
+      <Text layoutX="309.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HEALTH :" textAlignment="CENTER">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Text>
+      <Text layoutX="328.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="80" textAlignment="CENTER" wrappingWidth="144.63909912109375">
+         <font>
+            <Font size="65.0" />
+         </font>
+      </Text>
+      <Text layoutX="323.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MANA :" textAlignment="CENTER">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Text>
+      <Text layoutX="328.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" text="125" textAlignment="CENTER" wrappingWidth="144.63909912109375">
+         <font>
+            <Font size="65.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="236.0" fitWidth="249.0" layoutX="29.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/1r.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="80.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zydan">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="228.0" fitWidth="199.0" layoutX="551.0" layoutY="124.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/2r.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="572.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bagas">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Text>
+      <Text layoutX="52.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mahasiswa UPN yang suka menembak perempuan" wrappingWidth="289.60235595703125">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="510.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Seorang ahli tembak yang suka makan nasi" wrappingWidth="275.08544921875">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Button fx:id="zydaneButton" layoutX="80.0" layoutY="355.0" mnemonicParsing="false" onAction="#pilihZydane" opacity="0.1" prefHeight="66.0" prefWidth="188.0" />
+      <Button fx:id="bagasButton" layoutX="575.0" layoutY="355.0" mnemonicParsing="false" onAction="#pilihBagas" opacity="0.1" prefHeight="60.0" prefWidth="145.0" />
+      <Button fx:id="backRangeChar1" mnemonicParsing="false" onAction="#backToRole" prefHeight="25.0" prefWidth="52.0" />
+      <ImageView fitHeight="19.0" fitWidth="21.0" layoutX="15.0" layoutY="3.0" pickOnBounds="true">
+         <image>
+            <Image url="@res/toppng.com-back-arrow-981x956.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="backRangeChar" mnemonicParsing="false" onAction="#backToRole" opacity="0.0" prefHeight="25.0" prefWidth="52.0" />
+   </children>
+</Pane>
